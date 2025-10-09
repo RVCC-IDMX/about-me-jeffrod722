@@ -1,0 +1,45 @@
+ header {
+        text-align:center;
+        font-family: bokor;
+        font-size: 25px;
+        color: #735148;
+  
+
+    }
+
+      footer {
+        text-align:center;
+        background-color: #96926B;
+        font-size: 2rem;
+       border: 5px solid #735148;
+       border-radius: 2rem;
+          color: #EBDF59;
+          
+    }
+
+    body {
+      background-color: #EAB8AB;
+    }
+
+    #hero {
+      text-align: center;
+      background-color: #96926B;
+      font-size: 2rem;
+      border: 5px solid #735148;
+      border-radius: 2rem;
+      color: #EBDF59;
+    }
+
+    #hero img {
+      width: 20rem;
+      max-width: 100%;
+    }
+
+    #bio  {
+      font-family:quintessential;
+      font-size: 1.5rem;
+      color: #735148;
+    }
+
+    
+    
