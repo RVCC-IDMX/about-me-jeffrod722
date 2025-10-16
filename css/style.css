@@ -61,3 +61,20 @@
     #hobbies ul li:nth-child(even) {
       color: #59EBBB
     }
+
+    #gallery img{
+      max-width: 100%;
+    }
+
+    #gallery {
+      border: .5rem solid #735148;
+    }
+
+    #gallery hr {
+      border: none;
+      border-top: .5rem solid #735148;
+    }
+
+    #gallery figure {
+      text-align: center;
+    }
