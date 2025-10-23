@@ -1,104 +1,124 @@
  header {
-        text-align:center;
-        font-family: bokor;
-        font-size: 25px;
-        color: #735148;
-  
+   text-align: center;
+   font-family: bokor;
+   font-size: 25px;
+   color: #735148;
 
-    }
 
-      footer {
-        text-align:center;
-        background-color: #96926B;
-        font-size: 2rem;
-       border: 5px solid #735148;
-       border-radius: 2rem;
-          color: #EBDF59;
-          
-    }
+ }
 
-    body {
-      background-color: #EAB8AB;
-    }
+ footer {
+   text-align: center;
+   background-color: #96926B;
+   font-size: 2rem;
+   border: 5px solid #735148;
+   border-radius: 2rem;
+   color: #EBDF59;
 
-    #hero {
-      text-align: center;
-      background-color: #96926B;
-      font-size: 2rem;
-      border: 5px solid #735148;
-      border-radius: 2rem;
-      color: #EBDF59;
-    }
+ }
 
-    #hero img {
-      width: 20rem;
-      max-width: 100%;
-    }
+ body {
+   background-color: #EAB8AB;
+ }
 
-    #bio  {
-      font-family:quintessential;
-      font-size: 1.5rem;
-      color: #735148;
-    }
+ #hero {
+   text-align: center;
+   background-color: #96926B;
+   font-size: 2rem;
+   border: 5px solid #735148;
+   border-radius: 2rem;
+   color: #EBDF59;
+ }
 
-    h2{
-      text-align: center;
-      font-size: 3rem;
-      color: #96926B;
-      font-family:quintessential;
-    }
-    #hobbies {
-      font-family:quintessential;
-      font-size: 1.5rem;
-      background-color: #735148;
-      border: 5px solid #96926B;
+ #hero img {
+   width: 20rem;
+   max-width: 100%;
+ }
 
-    }
+ #bio {
+   font-family: quintessential;
+   font-size: 1.5rem;
+   color: #735148;
+ }
 
-    #hobbies ul li:nth-child(odd) {
-      color:#EAB8AB
-    }
-    
-    #hobbies ul li:nth-child(even) {
-      color: #59EBBB
-    }
+ h2 {
+   text-align: center;
+   font-size: 3rem;
+   color: #96926B;
+   font-family: quintessential;
+   margin-top: 2rem;
+ }
 
-    #gallery img{
-      max-width: 100%;
-    }
+ #hobbies {
+   font-family: quintessential;
+   font-size: 1.5rem;
+   background-color: #735148;
+   border: 5px solid #96926B;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 
-    #gallery {
-      border: .5rem solid #735148;
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
+ }
 
-    #gallery hr {
-      border: none;
-      border-top: .5rem solid #735148;
-    }
+ #hobbies ul li:nth-child(odd) {
+   color: #EAB8AB
+ }
 
-    #gallery figure {
-      text-align: center;
-    }
+ #hobbies ul li:nth-child(even) {
+   color: #59EBBB
+ }
 
-    #gallery figcaption {
-      font-family:quintessential;
-      font-size: 2rem;
-      color: #735148;
-    }
+ #gallery img {
+   max-width: 100%;
+ }
 
-    #lit {
-      font-family: bokor;
-      font-size: 1.5rem;
-      color: #735148;
-    }
+ #gallery {
+   border: .5rem solid #735148;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
 
-    #lit p:first-letter {
-      color: #735148;
-      font-size: 200%;
-      float: left;
-      font-family: quintessential;
-      text-shadow: 3px 3px 3px black;
+ #gallery hr {
+   border: none;
+   border-top: .5rem solid #735148;
+ }
 
-    }
+ #gallery figure {
+   text-align: center;
+ }
+
+ #gallery figcaption {
+   font-family: quintessential;
+   font-size: 2rem;
+   color: #735148;
+ }
+
+ #lit {
+   font-family: bokor;
+   font-size: 1.5rem;
+   color: #735148;
+ }
+
+ #lit p:first-letter {
+   color: #735148;
+   font-size: 200%;
+   float: left;
+   font-family: quintessential;
+   text-shadow: 3px 3px 3px black;
+
+ }
+
+ @media screen (min-width 60em) {
+   figure {
+     display: grid;
+     grid-template-columns: 2fr 1fr;
+   }
+
+   figcaption {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 2rem;
+     margin-left: 1rem;
+   }
+ }
