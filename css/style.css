@@ -117,8 +117,7 @@
    box-shadow: 5px 5px 5px black;
    max-width: 100%;
    aspect-ratio: 16/9;
-
-
+   border: ridge 5px #59EBBB;
  }
 
  #myVideo p {

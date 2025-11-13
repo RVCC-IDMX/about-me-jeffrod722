@@ -134,10 +134,61 @@
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                
+
 
         </section>
 
+        <section id="contact">
+
+            <h2>Contact Me:</h2>
+
+            <form method="post" data-netlify="true">
+                <fieldset>
+
+                    <legend>Contact Form</legend>
+                    <label for="name">Name: (required)</label>
+                    <input id="name" name="name" type="text" required>
+
+                    <label for="email"> Email Address: (required)</label>
+                    <input id="email" name="email" type="email" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input id="phone" name="phone" type="tel">
+
+                    <label for="type">Phone Type:</label>
+                    <select id="type" name="type">
+                        <option value=""></option>
+                        <option value="Home">Home</option>
+                        <option value="Mobile">Mobile</option>
+                        <option value="Work">Work</option>
+                    </select>
+
+                    <label for="message">Message:</label>
+                    <textarea name="message" required></textarea>
+
+                    <fieldset>
+                        <legend>Do you want a followup?</legend>
+                        <ul>
+                            <li><input type="radio" id="respond-yes" name="response"><label for="respond-yes"> Yes
+                                    please!</label></li>
+                            <li><input type="radio" id="respond-no" name="response"><label for="respond-no"> No
+                                    thanks.</label></li>
+
+                        </ul>
+                    </fieldset>
+
+                    <input id="submit" type="submit" value="Submit">
+                </fieldset>
+            </form>
+
+
+
+
+
+
+
+
+        </section>
 
     </main>
 
