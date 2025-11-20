@@ -1,0 +1,104 @@
+/* make scrolling smooth */
+html {
+    scroll-behavior: smooth;
+}
+
+/* 
+ get rid of padding & sizing on body so
+ header is at top
+*/
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* add some padding back to rest of page */
+main {
+    padding: 2vw;
+}
+
+/* navbar */
+.navbar {
+    background-color:#735148 ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    font-size: 25px;
+    font-family: bokor;
+}
+
+
+/* logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    margin: 10px;
+}
+
+.logo h1 {
+    font-size: 1.5em;
+    color: #eab8ab;
+}
+
+
+/* navigation list */
+.navbar-links li {
+    list-style: none;
+    display: block;
+    padding: .25em 0;
+    text-align: center;
+
+}
+
+.navbar-links ul {
+    padding: 0;
+}
+
+.navbar-links a {
+    color: #eab8ab;
+    text-decoration: none;
+    display: inline-block;
+    padding: .75ex;
+    background-color: #735148;
+    border-radius: .5ex;
+    padding: 10px;
+}
+
+.navbar-links a:hover {
+    filter: invert(100%);
+
+}
+
+
+/* 
+media query for non-mobile nav bar
+min-width set to width of nav elements 
+such that no text wraps 
+*/
+@media (min-width: 800px) {
+    .navbar-links {
+        display: flex;
+        
+    }
+
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 3ex;
+        padding-right: 2vw;
+    }
+
+   
+}
