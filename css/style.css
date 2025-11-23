@@ -119,6 +119,36 @@ iframe {
   color: #735148;
 }
 
+#contact {
+  border: ridge 5px #96926B;
+  display: flex;
+  padding: 20px;
+}
+#contact h2 {
+margin-top: auto;
+margin-bottom: auto;
+padding: 5px;
+}
+
+#contact fieldset {
+  padding: 15px;
+  border: double 5px #735148;
+}
+#contact label, legend {
+  font-family: bokor;
+  font-size: 25px;
+  color: #96926B;
+  text-align: center;
+  padding: 10px;
+  
+}
+#submit {
+  font-size: 20px;
+}
+
+
+
+
 
 @media screen and (min-width: 60em) {
   figure {
