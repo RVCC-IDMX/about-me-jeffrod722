@@ -20,7 +20,7 @@ main {
 
 /* navbar */
 .navbar {
-    background-color:#735148 ;
+    background-color:#735148;
     color: white;
     display: flex;
     flex-direction: column;
